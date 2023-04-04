@@ -1,0 +1,10 @@
+[cache]
+    type=reflink,hardlink,symlink
+[core]
+    remote = s3remote
+['remote "s3versioned"']
+    url = s3://dave-sandbox-versioning/test2014
+    version_aware = true
+    worktree = true
+['remote "s3remote"']
+    url = s3://dave-sandbox/coco
