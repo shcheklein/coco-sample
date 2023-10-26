@@ -1,0 +1,4 @@
+artifacts:
+  coco:
+    path: test2014
+    type: model
